@@ -12,31 +12,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Finca El Rancho</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Finca El Rancho</a>
+
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú que colapsa -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
         </div>
-    </nav>
-    <header class="hero text-white text-center py-5 portada">
+    </div>
+</nav>
+    <header class="hero text-white text-center py-5 px-3">
         <h1 class="great-vibes-regular hero-title">Bienvenidos a Finca El Rancho</h1>
-        <p class="lead fs-4">El lugar perfecto en Alxén, Salvaterra de Miño para tus celebraciones familiares</p>
+        <p class="lead fs-4">El lugar perfecto en Alxén, Salvaterra de Miño, para tus celebraciones familiares</p>
     </header>
     <section class="image-section">
         <img src="/images/rancho_25.jpg" class="img-fluid image-cropped" alt="...">
     </section>
     <section class="container py-5 text-center">
-        <h2 class="section-title mb-4">Eventos que puedes celebrar</h2>
-        <p class="fs-5">La finca es ideal para cumpleaños, bodas, comuniones, bautizos y más.</p>
+        <h2 class="section-title mb-4">Tu sitio ideal</h2>
+        <p class="fs-4">Para disfrutar con tus familiares y amigos de momentos especiales</p>
     </section>
 
     <footer class="bg-light text-center py-3">
         © 2025 Finca El Rancho
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
